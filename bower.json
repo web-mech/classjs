@@ -1,0 +1,22 @@
+{
+  "name": "class-js",
+  "version": "1.0.0",
+  "authors": [
+    "Mike P <webmech@gmail.com>"
+  ],
+  "description": "A simple javascript class implementation",
+  "main": "Class.js",
+  "keywords": [
+    "class",
+    "inheritance",
+    "encapsulation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
