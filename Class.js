@@ -66,8 +66,13 @@ var Class = (function(){
     return this.Class;
   })();
 
-if(define)
-  define([],function(return Class;));
 
-if(module)
-  module.exports = Class;
+if (typeof define != 'undefined' && define != null) {
+  define([],function(){
+    return Class;
+  });
+}
+
+if (typeof exports != 'undefined' && exports != null) {
+    module.exports = Class;
+}
