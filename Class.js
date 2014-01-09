@@ -3,8 +3,8 @@
  * http://ejohn.org/blog/simple-javascript-inheritance/
  * MIT Licensed.
  */
-define([],function(){
-  return (function(){
+
+var Class = (function(){
     var initializing = false, 
         fnTest = /xyz/.test(function(){xyz;}) ? /\b_super\b/ : /.*/;
 
@@ -65,4 +65,9 @@ define([],function(){
 
     return this.Class;
   })();
-});
+
+if(define)
+  define([],function(return Class;));
+
+if(module)
+  module.exports = Class;

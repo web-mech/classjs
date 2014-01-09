@@ -1,0 +1,20 @@
+{
+  "name": "simple-class",
+  "version": "1.0.0",
+  "description": "Classic javascript inheritance",
+  "main": "Class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/web-mech/classjs.git"
+  },
+  "keywords": [
+    "classes",
+    "inheritance",
+    "oop"
+  ],
+  "author": "Mike P",
+  "license": "MIT"
+}
